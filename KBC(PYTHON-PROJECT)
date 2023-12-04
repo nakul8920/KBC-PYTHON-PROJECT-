@@ -1,0 +1,128 @@
+print("                 ------ WELCOME TO KBC -------               ")
+print("press Y to start the game otherwise press any key to exit the game")
+ch= input()
+amount = 0
+while True:
+        if ch == "Y":
+            print("Q.1) What is the capital of india?")
+            print("a) kolkata.")
+            print("b) delhi.")
+            print("c) west bengal.")
+            print("d) kerla.")
+            print("choose your option:")
+            option = input()
+            if option == "b":
+                amount = amount + 100
+                print("you win=",amount)
+            elif option == "a" or option == "c" or option == "d": 
+                print("wrong answer you lose the game")
+                print("your grand prize =",amount)
+                break
+            else:
+                print("wrong choice please choose between a,b,c,d options")
+                break
+            print("Q.2) How many bones in human body?")
+            print("a) 204.")
+            print("b) 205.")
+            print("c) 206.")
+            print("d) 207.")
+            print("choose your option:")
+            option2 = input()
+            if option2 == "c":
+                amount = amount + 100
+                print("you win=",amount)
+            elif option2 == "a" or option2 == "b" or option2 == "d":
+                print("wrong answer you lose the game")
+                print("your grand prize=",amount)
+                break
+            else:
+                print("wrong choice please choose between a,b,c,d options")
+                break
+            print("Q.3) who gave the theory of relativity?")
+            print("a) Issac Newton.")
+            print("b) Michael Faraday.")
+            print("c) Albert Einstein.")
+            print("d) Thomas Edison.")
+            print("choose your option:")
+            option3 = input()
+            if option3 == "c":
+                amount = amount + 100
+                print("you win=",amount)
+            elif option3 == "a" or option3 == "b" or option3 == "d":
+                print("wrong answer you lose the game")
+                print("your grand prize=",amount)
+                break
+            else:
+                print("wrong choice please choose between a,b,c,d options")
+                break
+            print("Q.4) Which element is exists in liquid form at the room temperature.")
+            print("a) Gallium.")
+            print("b) Zinc.")
+            print("c) Water.")
+            print("d) Mercury.")
+            print("choose your option:")
+            option4 = input()
+            if option4 == "d":
+                amount = amount + 100
+                print("you win=",amount)
+            elif option4 == "a" or option4 == "b" or option4 == "c":
+                print("wrong answer you lose the game")
+                print("your grand prize=",amount)
+                break
+            else:
+                print("wrong choice please choose between a,b,c,d options")
+                break
+            print("Q.5) Name of the smallest bone of human body.")
+            print("a) Tailbone.")
+            print("b) Stapes.")
+            print("c) Sternum.")
+            print("d) Cornea.")
+            print("choose your option:")
+            option5 = input()
+            if option5 == "b":
+                amount = amount + 100
+                print("you win=",amount)
+            elif option5 == "a" or option5 == "c" or option5 == "d":
+                print("wrong answer you lose the game")
+                print("your grand prize=",amount)
+                break
+            else:
+                print("wrong choice please choose between a,b,c,d options")
+                break
+            print("Q.6) What is the prefix of 8 carbons.")
+            print("a) Pent-")
+            print("b) Dec-")
+            print("c) Oct-")
+            print("d) Hex-")
+            print("choose your option:")
+            option6 = input()
+            if option6 == "c":
+                amount = amount + 100
+                print("you win=",amount)
+            elif option5 == "a" or option5 == "b" or option5 == "d":
+                print("wrong answer you lose the game")
+                print("your grand prize=",amount)
+                break
+            else:
+                print("wrong choice please choose between a,b,c,d options")
+                break
+            print("Q.7) The chemical formula of common salt.")
+            print("a) CaCo3.")
+            print("b) CaCl2.")
+            print("c) NaNo3.")
+            print("d) NaCl.")
+            print("choose your option:")
+            option7 = input()
+            if option7 == "d":
+                amount = amount + 100
+                print("you win=",amount)
+            elif option5 == "a" or option5 == "c" or option5 == "b":
+                print("wrong answer you lose the game")
+                print("your grand prize=",amount)
+                break
+            else:
+                print("wrong choice please choose between a,b,c,d options")
+            break
+        else:
+            print("********ok you want to exit the game********")
+            break
